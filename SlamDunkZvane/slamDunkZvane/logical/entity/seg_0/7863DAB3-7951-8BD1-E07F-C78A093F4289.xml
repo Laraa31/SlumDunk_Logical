@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02A6BB79-E850-4F06-3DA0-5EB5C8DF7A46" name="Artikl">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7863DAB3-7951-8BD1-E07F-C78A093F4289" name="Povijest cijene">
 <createdBy>Korisnik</createdBy>
-<createdTime>2022-01-11 11:53:40 UTC</createdTime>
+<createdTime>2022-01-25 11:05:51 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
 <item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
@@ -14,49 +14,47 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>ART</shortName>
+<shortName>Poc</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Artikl_ID" id="ABA72962-B114-7287-9307-0D31A40ABAAA">
+<Attribute name="DatumPromjene" id="D9D09DBC-28CE-118B-B816-90A495F81725">
 <createdBy>Korisnik</createdBy>
-<createdTime>2022-01-11 11:53:53 UTC</createdTime>
+<createdTime>2022-01-25 11:06:27 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
 <item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Kategorija" id="2CAC8A1D-B1C4-FBAC-1E3A-6AF22FA1A260">
+<Attribute name="VrijemePromjene" id="954CD6D3-C1C2-3F65-D832-51536AB66FE7">
 <createdBy>Korisnik</createdBy>
-<createdTime>2022-01-11 11:54:22 UTC</createdTime>
+<createdTime>2022-01-25 11:07:04 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
 <item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Opis_artikla" id="6CF5E706-12E6-F1FD-30E9-90E4CDD36C15">
+<Attribute name="Cijena" id="00F5B890-EFD5-A34F-36CF-0064AAF819D0">
 <createdBy>Korisnik</createdBy>
-<createdTime>2022-01-11 11:54:58 UTC</createdTime>
+<createdTime>2022-01-25 11:07:54 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
 <item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="boja" id="D0EBB627-EAF2-F8EB-DEE0-14239E624D10">
+<Attribute name="datum_isteka" id="CA1A0157-C0DE-CB7A-FF20-BBEF8A6C4124">
 <createdBy>Korisnik</createdBy>
-<createdTime>2022-01-11 11:55:26 UTC</createdTime>
+<createdTime>2022-01-25 11:08:14 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
 <item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
@@ -64,13 +62,12 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="velicina" id="DEC21FCF-3624-82F6-5493-232F0145A417">
+<Attribute name="vrijeme_isteka" id="06EF4680-A106-5411-AADD-FC1712BC8BEE">
 <createdBy>Korisnik</createdBy>
-<createdTime>2022-01-11 11:56:01 UTC</createdTime>
+<createdTime>2022-01-25 11:08:40 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
 <item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
@@ -78,18 +75,18 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Skladiste_ID" id="C6E1AC99-AA21-932E-576B-96101E0798DE">
+<Attribute name="Artikl_ID" id="919E7B0A-E563-C586-DFA0-EAFAECBA6EF3">
 <createdBy>Korisnik</createdBy>
-<createdTime>2022-01-25 11:17:53 UTC</createdTime>
-<generatorID>060535A7-EABD-5FC2-EB32-4F1221598515</generatorID>
+<createdTime>2022-01-25 11:14:18 UTC</createdTime>
+<generatorID>C03C069F-6B35-D9B9-D155-D96CBEA09512</generatorID>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
 <item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
 </engineerTo>
-<referedAttribute>1EA151A2-60A4-BCBF-A5D2-A03CC7CB6575</referedAttribute>
+<referedAttribute>ABA72962-B114-7287-9307-0D31A40ABAAA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -97,16 +94,18 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2A28F767-9282-4890-47AC-3498E1623C23" name="Artikl PK">
+<identifier id="FC0427BC-51FF-3D41-D1C2-07F396B31983" name="Povijest cijene PK">
 <createdBy>Korisnik</createdBy>
-<createdTime>2022-01-11 11:54:20 UTC</createdTime>
+<createdTime>2022-01-25 11:06:43 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
 <item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>ABA72962-B114-7287-9307-0D31A40ABAAA</attributeRef>
+<attributeRef>D9D09DBC-28CE-118B-B816-90A495F81725</attributeRef>
+<attributeRef>954CD6D3-C1C2-3F65-D832-51536AB66FE7</attributeRef>
+<attributeRef>919E7B0A-E563-C586-DFA0-EAFAECBA6EF3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

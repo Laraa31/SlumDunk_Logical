@@ -52,6 +52,21 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Kupac_ID" id="9A944E3A-A467-A479-1486-8DD92DA92BF4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:13:22 UTC</createdTime>
+<generatorID>904C56B0-4480-FAF8-A0EA-6CED273B4669</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>DEA17149-448A-7C83-3F6A-2E24764444A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="EB29AA14-EA57-3227-BA21-46E85C87E5B8" name="Narudzba PK">

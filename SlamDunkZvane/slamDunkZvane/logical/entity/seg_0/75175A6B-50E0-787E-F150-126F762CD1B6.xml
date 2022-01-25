@@ -30,5 +30,19 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Ekipa_ID" id="122B7FD4-782D-7B64-EF67-87F848EF717E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:12:13 UTC</createdTime>
+<generatorID>70EC1AA7-EE2B-2D17-99EF-47D547831B21</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>3573A3B1-BD21-61A6-439A-B8DCEC05928C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

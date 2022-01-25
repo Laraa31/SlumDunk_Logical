@@ -14,7 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>ADP</shortName>
+<shortName>APP</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="ID_adresa_pp" id="95F5C26D-4CF1-4C35-6715-7B1710A7B201">
 <createdBy>Korisnik</createdBy>
@@ -90,6 +90,21 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e-mail" id="F30C254A-C26F-5B95-8F2F-5F8549E6CB47">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:42:00 UTC</createdTime>
+<generatorID>EBC29C23-E4A4-3AD6-0F24-07352A924070</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>43D46703-3E01-122E-743D-04DFDB66AAE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

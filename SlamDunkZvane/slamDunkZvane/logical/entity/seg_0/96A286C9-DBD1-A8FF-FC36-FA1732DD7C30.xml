@@ -91,6 +91,21 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Kupac_ID" id="F95C2B6A-2C52-C955-BFE2-5188C532130F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:12:30 UTC</createdTime>
+<generatorID>75732F82-D36C-FCAC-9025-5D0A1490A506</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>DEA17149-448A-7C83-3F6A-2E24764444A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="069398FF-5868-43DE-ACE1-0978053C770C" name="Adresa kupca PK">

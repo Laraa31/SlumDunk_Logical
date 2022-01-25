@@ -92,6 +92,22 @@
 <logicalDatatype>LOGDT043</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="e-mail1" id="F76FE027-1FED-ECB3-EA34-428C35C5DBCB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:13:49 UTC</createdTime>
+<generatorID>1C1CFE07-9E14-EB64-9B80-4D14432CD889</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>43D46703-3E01-122E-743D-04DFDB66AAE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="EBC4A02A-7CDB-61CB-1C74-CB0E277951B0" name="Kupac PK">

@@ -107,6 +107,22 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="e-mail1" id="E44B51B8-6382-A609-C7AB-3112EDF5FF7F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:15:27 UTC</createdTime>
+<generatorID>8D8DE66D-2E73-750D-F62B-77322246C521</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>43D46703-3E01-122E-743D-04DFDB66AAE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="83E53E5E-B1D1-22FE-7E29-5D524A079D88" name="Prodajni predstavnik PK">

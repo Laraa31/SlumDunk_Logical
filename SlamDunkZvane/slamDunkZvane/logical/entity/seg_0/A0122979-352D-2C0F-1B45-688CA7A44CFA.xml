@@ -14,7 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>NAK</shortName>
+<shortName>NAA</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="narucena_kolicina" id="B9DB7270-6EF7-31A0-E93F-64231D1E19F4">
 <createdBy>Korisnik</createdBy>
@@ -40,5 +40,48 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Narudzba_ID" id="9ECFDF2B-A2C5-8252-DF67-FDBC2996F2D4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:10:04 UTC</createdTime>
+<generatorID>987E3542-C121-E302-86E4-8BE2012005F0</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>93C4E9C6-2AE7-EF53-B508-182C4BE09879</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artikl_ID" id="F7FA6255-32B6-51BC-B8D0-F43E6F75F5A1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:11:08 UTC</createdTime>
+<generatorID>93F5E9DE-4613-94D7-D51E-892E1CA61C2E</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>ABA72962-B114-7287-9307-0D31A40ABAAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20ADD677-B32D-5576-5F4A-1AF0EB3BDD9D" name="Naruceni artikl PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:09:51 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9ECFDF2B-A2C5-8252-DF67-FDBC2996F2D4</attributeRef>
+<attributeRef>F7FA6255-32B6-51BC-B8D0-F43E6F75F5A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
