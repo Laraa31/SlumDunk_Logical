@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19CBF294-D078-578F-6530-4350E7533A69" name="Skladiste">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19CBF294-D078-578F-6530-4350E7533A69" name="SKLADISTE">
 <createdBy>Korisnik</createdBy>
 <createdTime>2022-01-11 11:58:14 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2022-01-11 11:58:34 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2022-01-11 11:59:13 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +47,7 @@
 <createdTime>2022-01-11 11:58:57 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

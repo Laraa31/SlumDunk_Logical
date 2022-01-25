@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7863DAB3-7951-8BD1-E07F-C78A093F4289" name="Povijest cijene">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7863DAB3-7951-8BD1-E07F-C78A093F4289" name="POVIJEST_CIJENE">
 <createdBy>Korisnik</createdBy>
 <createdTime>2022-01-25 11:05:51 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2022-01-25 11:06:27 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2022-01-25 11:07:04 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2022-01-25 11:07:54 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,7 +57,7 @@
 <createdTime>2022-01-25 11:08:14 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,7 +70,7 @@
 <createdTime>2022-01-25 11:08:40 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -84,7 +84,7 @@
 <generatorID>C03C069F-6B35-D9B9-D155-D96CBEA09512</generatorID>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <referedAttribute>ABA72962-B114-7287-9307-0D31A40ABAAA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -99,7 +99,7 @@
 <createdTime>2022-01-25 11:06:43 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

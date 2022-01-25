@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7039C60-6BED-C320-A483-FC147A594E5F" name="Ekipa">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7039C60-6BED-C320-A483-FC147A594E5F" name="EKIPA">
 <createdBy>Korisnik</createdBy>
 <createdTime>2022-01-11 11:26:25 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2022-01-11 11:26:49 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2022-01-11 11:28:32 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,12 +41,12 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Broj_igrača" id="CD698340-3141-DDA1-C0BE-BBCBE3097A42">
+<Attribute name="Broj_igraca" id="CD698340-3141-DDA1-C0BE-BBCBE3097A42">
 <createdBy>Korisnik</createdBy>
 <createdTime>2022-01-11 11:29:49 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2022-01-11 11:32:12 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -71,7 +71,7 @@
 <createdTime>2022-01-11 11:32:44 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -85,14 +85,14 @@
 <generatorID>70EC1AA7-EE2B-2D17-99EF-47D547831B21</generatorID>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <referedAttribute>DEA17149-448A-7C83-3F6A-2E24764444A8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -101,7 +101,7 @@
 <createdTime>2022-01-11 11:27:34 UTC</createdTime>
 <ownerDesignName>slamDunkZvane</ownerDesignName>
 <engineerTo>
-<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+<item key="8EEB8BF2-17EF-562E-6FA6-03163F44ED37" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
